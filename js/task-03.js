@@ -15,7 +15,6 @@ const images = [
 const refs = {
     galleryRef: document.querySelector('ul#gallery'),
 };
-console.log(refs);
 const imagesElements = images.map(image => {
     const galleryElement = document.createElement('li');
     galleryElement.insertAdjacentHTML(
