@@ -17,7 +17,7 @@ const refs = {
 };
 console.log(refs);
 const imagesElements=images.map(image=>{const galleryElement = document.createElement('li');
-    galleryElement.insertAdjacentHTML('afterbegin', `<img alt=${image.alt} src=${image.url} height="375" width="630px">`);
+    galleryElement.insertAdjacentHTML('afterbegin', `<img alt=${image.alt} src=${image.url} height="180" width="315px">`);
     return galleryElement;
 })
 
