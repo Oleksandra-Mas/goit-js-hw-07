@@ -13,9 +13,9 @@ const countCategoryItemsNumber = function (reference) {
 const task01 = function (references) {
     console.log(`В списке ${countCategoriesNumber(references)} категории`);
     references.categoriesRefs.forEach(reference => {
-        console.log(`Категория: ${findCategoryName(reference)}`);
+        console.log(`Категория (текст заголовка элемента (тега h2)): ${findCategoryName(reference)}`);
         console.log(
-            `Количество элементов: ${countCategoryItemsNumber(reference)}`,
+            `Количество элементов (в категории): ${countCategoryItemsNumber(reference)}`,
         );
     });
 };

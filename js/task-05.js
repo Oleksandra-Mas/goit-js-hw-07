@@ -7,4 +7,4 @@ const inputValueHandle = function () {
         ? refs.inputRef.value
         : 'незнакомец';
 };
-refs.inputRef.addEventListener('keydown', inputValueHandle);
+refs.inputRef.addEventListener('input', inputValueHandle);
